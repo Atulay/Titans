@@ -1,0 +1,132 @@
+body {
+  margin:0;
+}
+
+.body_background {
+  background: url(home-bg.jpg);
+  background-repeat: no-repeat;
+  height: 700px;
+        background-position: center;
+        
+        background-size: cover;
+        position: relative;
+}
+
+.div_header {
+  float:initial;
+  width: 100%;
+  height: 80px;
+  margin-top:0;
+  position:fixed;
+  /* background-color: #2f2f1e; */
+  background: rgba(0,0,0,0.7);
+  font:black;
+
+}
+
+@font-face {
+font-family: "Art_Brewery";
+src: url("");
+}
+
+.logo {
+  float: left;
+  width: 40%;
+  height: 100%;
+  position: relative;
+  
+  text-align: center;
+  font-family:  Art_Brewery;
+  font-size: 44px;
+  padding-top:5px;
+}
+.logo:hover {
+	color:rgb(83, 255, 26);
+	font-family:  Art_Brewery;
+	font-size:68px;
+	cursor:pointer;
+	transition:0.1s;
+}
+
+
+/*   */
+.btn_style {
+  width: 12%;
+  height: 60%;
+  float: left;
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  cursor: pointer;
+  /*display: inline-block;*/
+  color: rgb(67, 196, 185);
+  margin: auto;
+  margin-top: 20px;
+  transition:0.2s;
+  /*display:inline-flex;*/
+}
+.btn_style:hover {
+  color: white;
+  background-color: rgb(25, 150, 139);
+  border-radius: 5px;
+  border-color:gray;
+}
+
+/* * {
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;}
+
+		.photo img {
+		  max-width: 100%;
+		  
+		  -moz-transition: all 0.5s;
+		  -webkit-transition: all 0.5s;
+		  transition: all 0.5s;
+		  
+		}
+
+		.photo:hover{
+		  -moz-transform: scale(1.1);
+		  -webkit-transform: scale(1.1);
+		  transform: scale(1.2);}*/
+
+.index_bottom {
+  height: 6%;
+  width: 100%;
+  background-color: rgb(47, 47, 30, 0.9);
+  color: #e0e0d1;
+  bottom: 0;
+  padding-top:20;
+  position:unset;
+}
+
+/*......... content starts ......... */
+
+
+.get_started_button {
+  width: 14%;
+  height: 7%;
+  font-family: Andale Mono, monospace;
+  font-size: 18px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  background: rgb(40, 170, 170);
+  display: inline-block;
+  border-color: rgb(25, 150, 139);
+  cursor: pointer;
+  margin-top:375px;
+  margin-left:42%;
+  
+}
+.get_started_button:hover {
+  background-color: inherit;
+  border: 2px solid rgb(25, 150, 139);
+  color:rgb(25, 150, 139);
+  font-size:23px;
+  transition:0.2s;
+}
+
